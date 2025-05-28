@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<div class="contact-form">
+<div class="contact-form" action="/confirm" method="post">
   <h2 class="contact-form__heading content__heading">Contact</h2>
   <div class="contact-form__inner">
     <form action="confirm" method="post">
